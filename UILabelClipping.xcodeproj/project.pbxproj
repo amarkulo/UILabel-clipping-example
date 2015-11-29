@@ -13,10 +13,10 @@
 		09FC7DEE1C0B5C4C00B17D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7DEC1C0B5C4C00B17D72 /* Main.storyboard */; };
 		09FC7DF01C0B5C4C00B17D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7DEF1C0B5C4C00B17D72 /* Assets.xcassets */; };
 		09FC7DF31C0B5C4C00B17D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7DF11C0B5C4C00B17D72 /* LaunchScreen.storyboard */; };
-		09FC7DFE1C0B5E3100B17D72 /* SignPainter.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7DFB1C0B5E3100B17D72 /* SignPainter.otf */; };
-		09FC7DFF1C0B5E3100B17D72 /* Stanislav.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7DFC1C0B5E3100B17D72 /* Stanislav.otf */; };
-		09FC7E001C0B5E3100B17D72 /* Strato-linked.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7DFD1C0B5E3100B17D72 /* Strato-linked.ttf */; };
 		09FC7E021C0B613600B17D72 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FC7E011C0B613600B17D72 /* CoreText.framework */; };
+		09FC7E061C0B69D300B17D72 /* SignPainter.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7E031C0B69D300B17D72 /* SignPainter.otf */; };
+		09FC7E071C0B69D300B17D72 /* Stanislav.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7E041C0B69D300B17D72 /* Stanislav.otf */; };
+		09FC7E081C0B69D300B17D72 /* Strato-linked.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09FC7E051C0B69D300B17D72 /* Strato-linked.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		09FC7DEF1C0B5C4C00B17D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09FC7DF21C0B5C4C00B17D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09FC7DF41C0B5C4C00B17D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09FC7DFB1C0B5E3100B17D72 /* SignPainter.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SignPainter.otf; path = ../../FontsTest/FontsTest/appFont/SignPainter.otf; sourceTree = "<group>"; };
-		09FC7DFC1C0B5E3100B17D72 /* Stanislav.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Stanislav.otf; path = ../../FontsTest/FontsTest/appFont/Stanislav.otf; sourceTree = "<group>"; };
-		09FC7DFD1C0B5E3100B17D72 /* Strato-linked.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Strato-linked.ttf"; path = "../../FontsTest/FontsTest/appFont/Strato-linked.ttf"; sourceTree = "<group>"; };
 		09FC7E011C0B613600B17D72 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		09FC7E031C0B69D300B17D72 /* SignPainter.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SignPainter.otf; sourceTree = "<group>"; };
+		09FC7E041C0B69D300B17D72 /* Stanislav.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stanislav.otf; sourceTree = "<group>"; };
+		09FC7E051C0B69D300B17D72 /* Strato-linked.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Strato-linked.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +93,9 @@
 		09FC7DFA1C0B5E1600B17D72 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				09FC7DFB1C0B5E3100B17D72 /* SignPainter.otf */,
-				09FC7DFC1C0B5E3100B17D72 /* Stanislav.otf */,
-				09FC7DFD1C0B5E3100B17D72 /* Strato-linked.ttf */,
+				09FC7E031C0B69D300B17D72 /* SignPainter.otf */,
+				09FC7E041C0B69D300B17D72 /* Stanislav.otf */,
+				09FC7E051C0B69D300B17D72 /* Strato-linked.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -158,10 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FC7DF31C0B5C4C00B17D72 /* LaunchScreen.storyboard in Resources */,
-				09FC7DFF1C0B5E3100B17D72 /* Stanislav.otf in Resources */,
-				09FC7E001C0B5E3100B17D72 /* Strato-linked.ttf in Resources */,
+				09FC7E071C0B69D300B17D72 /* Stanislav.otf in Resources */,
+				09FC7E081C0B69D300B17D72 /* Strato-linked.ttf in Resources */,
 				09FC7DF01C0B5C4C00B17D72 /* Assets.xcassets in Resources */,
-				09FC7DFE1C0B5E3100B17D72 /* SignPainter.otf in Resources */,
+				09FC7E061C0B69D300B17D72 /* SignPainter.otf in Resources */,
 				09FC7DEE1C0B5C4C00B17D72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +322,7 @@
 				09FC7DF91C0B5C4C00B17D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
